@@ -24,3 +24,20 @@ You can deploy your new OrLike project with a single command from your terminal 
 ```Shell
 vercel
 ```
+
+## Client Configuration
+
+```HTML
+<script src="https://cdn.jsdelivr.net/gh/caibingcheng/orlike@master/orlike.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<div class="orlike-box"></div>
+<script>
+    new OrLike({
+        serverUrl: "https://orlike-vercel-caibingcheng.vercel.app/",
+        el: ".orlike-box",
+        days: 30,
+    });
+</script>
+```
+
+Check [OrLike](https://github.com/caibingcheng/orlike) for more details.
